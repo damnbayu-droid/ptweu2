@@ -1,0 +1,33 @@
+{
+  "Header": {
+    "home": "Beranda",
+    "about": "Tentang Kami",
+    "products": "Produk",
+    "contact": "Kontak",
+    "language": "Bahasa"
+  },
+  "HomePage": {
+    "hero": {
+      "title": "Batu Kapur & Kalsium Karbonat Berkualitas Tinggi",
+      "description": "PT Wira Energi Utama menyediakan batu kapur dan kalsium karbonat premium untuk kebutuhan industri, konstruksi, dan infrastruktur.",
+      "cta": "Hubungi Kami"
+    },
+    "products": {
+      "title": "Produk Kami",
+      "subtitle": "Material berkualitas tinggi untuk berbagai kebutuhan industri"
+    },
+    "facilities": {
+      "title": "Operasi & Fasilitas",
+      "subtitle": "Fasilitas operasional modern untuk menjamin kualitas dan pasokan yang handal"
+    }
+  },
+  "Footer": {
+    "rights": "Hak cipta dilindungi.",
+    "companyProfile": "Profil Perusahaan",
+    "links": {
+      "about": "Tentang Kami",
+      "products": "Produk",
+      "contact": "Kontak"
+    }
+  }
+}

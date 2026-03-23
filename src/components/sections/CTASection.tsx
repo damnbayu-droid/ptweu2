@@ -47,7 +47,7 @@ export function CTASection({
             asChild
             size="lg"
             variant="outline"
-            className={variant === "dark" ? "border-secondary-foreground/30 text-secondary-foreground hover:bg-secondary-foreground/10" : "border-primary-foreground/30 text-primary-foreground hover:bg-primary-foreground/10"}
+            className={variant === "dark" ? "border-secondary-foreground/30 text-secondary-foreground hover:bg-secondary-foreground/10 bg-transparent" : "border-primary-foreground/30 text-primary-foreground hover:bg-primary-foreground/10 bg-transparent"}
           >
             <a
               href={`https://wa.me/${COMPANY_INFO.whatsapp}`}
@@ -62,7 +62,7 @@ export function CTASection({
             asChild
             size="lg"
             variant="outline"
-            className={variant === "dark" ? "border-secondary-foreground/30 text-secondary-foreground hover:bg-secondary-foreground/10" : "border-primary-foreground/30 text-primary-foreground hover:bg-primary-foreground/10"}
+            className={variant === "dark" ? "border-secondary-foreground/30 text-secondary-foreground hover:bg-secondary-foreground/10 bg-transparent" : "border-primary-foreground/30 text-primary-foreground hover:bg-primary-foreground/10 bg-transparent"}
           >
             <a href={`tel:${COMPANY_INFO.phone.replace(/\s/g, "")}`}>
               <Phone className="mr-2 h-4 w-4" />

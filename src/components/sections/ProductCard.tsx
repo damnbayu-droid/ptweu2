@@ -3,6 +3,7 @@ import Link from "next/link";
 import { Card, CardContent } from "@/components/ui/card";
 import { Button } from "@/components/ui/button";
 import { ArrowRight } from "lucide-react";
+import { useLocale } from "next-intl";
 
 export interface Product {
   id: string;
@@ -16,16 +17,20 @@ export interface Product {
 
 interface ProductCardProps {
   product: Product;
+  locale: string;
 }
 
-export function ProductCard({ product }: ProductCardProps) {
+export function ProductCard({ product, locale }: ProductCardProps) {
+  const isId = locale === "id";
+  const displayName = isId && product.nameId ? product.nameId : product.name;
+
   return (
     <Card className="group overflow-hidden border-border/50 hover:border-primary/50 transition-all duration-300 hover:shadow-lg hover:shadow-primary/5">
       {/* Image */}
       <div className="relative h-48 bg-muted overflow-hidden">
         <Image
           src={product.image}
-          alt={product.name}
+          alt={displayName}
           fill
           className="object-cover transition-transform duration-300 group-hover:scale-105"
         />
@@ -38,8 +43,11 @@ export function ProductCard({ product }: ProductCardProps) {
 
       <CardContent className="p-6">
         {/* Title */}
-        <h3 className="text-xl font-bold text-foreground mb-1">{product.name}</h3>
-        {product.nameId && (
+        <h3 className="text-xl font-bold text-foreground mb-1">{displayName}</h3>
+        {isId && product.nameId && product.name !== product.nameId && (
+          <p className="text-sm text-muted-foreground mb-3">{product.name}</p>
+        )}
+        {!isId && product.nameId && (
           <p className="text-sm text-muted-foreground mb-3">{product.nameId}</p>
         )}
 
@@ -70,7 +78,7 @@ export function ProductCard({ product }: ProductCardProps) {
 
         {/* CTA */}
         <Button asChild variant="outline" size="sm" className="w-full group-hover:bg-primary group-hover:text-primary-foreground transition-colors">
-          <Link href={`/products#${product.id}`}>
+          <Link href={`/${locale}/products#${product.id}`}>
             Learn More
             <ArrowRight className="ml-2 h-4 w-4" />
           </Link>
@@ -80,7 +88,10 @@ export function ProductCard({ product }: ProductCardProps) {
   );
 }
 
-export function ProductCardLarge({ product }: ProductCardProps) {
+export function ProductCardLarge({ product, locale }: ProductCardProps) {
+  const isId = locale === "id";
+  const displayName = isId && product.nameId ? product.nameId : product.name;
+
   return (
     <Card id={product.id} className="overflow-hidden border-border/50 hover:border-primary/50 transition-all duration-300">
       <div className="grid md:grid-cols-2 gap-0">
@@ -88,7 +99,7 @@ export function ProductCardLarge({ product }: ProductCardProps) {
         <div className="relative h-64 md:h-80 bg-muted">
           <Image
             src={product.image}
-            alt={product.name}
+            alt={displayName}
             fill
             className="object-cover"
           />
@@ -101,8 +112,11 @@ export function ProductCardLarge({ product }: ProductCardProps) {
 
         {/* Content */}
         <CardContent className="p-8 flex flex-col justify-center">
-          <h3 className="text-2xl font-bold text-foreground mb-2">{product.name}</h3>
-          {product.nameId && (
+          <h3 className="text-2xl font-bold text-foreground mb-2">{displayName}</h3>
+          {isId && product.nameId && product.name !== product.nameId && (
+            <p className="text-base text-muted-foreground mb-4">{product.name}</p>
+          )}
+          {!isId && product.nameId && (
             <p className="text-base text-muted-foreground mb-4">{product.nameId}</p>
           )}
 
@@ -125,7 +139,7 @@ export function ProductCardLarge({ product }: ProductCardProps) {
           </div>
 
           <Button asChild className="w-fit">
-            <a href={`https://wa.me/628114344168?text=Inquiry about ${product.name}`} target="_blank" rel="noopener noreferrer">
+            <a href={`https://wa.me/628114344168?text=Inquiry about ${displayName}`} target="_blank" rel="noopener noreferrer">
               Request Quote / Minta Penawaran
             </a>
           </Button>

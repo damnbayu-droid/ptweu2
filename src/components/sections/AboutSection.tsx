@@ -1,4 +1,5 @@
 import Link from "next/link";
+import Image from "next/image";
 import { Card, CardContent } from "@/components/ui/card";
 import { Button } from "@/components/ui/button";
 import { ArrowRight, Target, Eye, Shield, Leaf, Users, Cog, TreePine } from "lucide-react";
@@ -64,18 +65,13 @@ export function AboutSummary() {
           </div>
 
           <div className="relative">
-            <div className="aspect-square rounded-2xl bg-muted overflow-hidden">
-              {/* Placeholder for company image */}
-              <div className="w-full h-full bg-gradient-to-br from-primary/20 to-secondary/80 flex items-center justify-center">
-                <div className="text-center p-8">
-                  <div className="w-20 h-20 mx-auto rounded-full bg-primary/20 flex items-center justify-center mb-4">
-                    <Eye className="h-10 w-10 text-primary" />
-                  </div>
-                  <p className="text-muted-foreground text-sm">
-                    Mining Operations in North Sulawesi
-                  </p>
-                </div>
-              </div>
+            <div className="aspect-square rounded-2xl bg-muted overflow-hidden relative">
+              <Image
+                src="/images/about_company.png"
+                alt="PT Wira Energi Utama Mining Operations"
+                fill
+                className="object-cover"
+              />
             </div>
           </div>
         </div>

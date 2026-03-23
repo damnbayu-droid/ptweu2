@@ -1,0 +1,33 @@
+{
+  "Header": {
+    "home": "Home",
+    "about": "About Us",
+    "products": "Products",
+    "contact": "Contact",
+    "language": "Language"
+  },
+  "HomePage": {
+    "hero": {
+      "title": "High Quality Limestone & Calcium Carbonate",
+      "description": "PT Wira Energi Utama provides premium limestone and calcium carbonate for industrial, construction, and infrastructure needs.",
+      "cta": "Contact Us"
+    },
+    "products": {
+      "title": "Our Products",
+      "subtitle": "High-quality materials for various industrial needs"
+    },
+    "facilities": {
+      "title": "Operations & Facilities",
+      "subtitle": "Modern operational facilities to ensure quality and reliable supply"
+    }
+  },
+  "Footer": {
+    "rights": "All rights reserved.",
+    "companyProfile": "Company Profile",
+    "links": {
+      "about": "About Us",
+      "products": "Products",
+      "contact": "Contact"
+    }
+  }
+}

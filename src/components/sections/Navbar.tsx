@@ -2,21 +2,21 @@
 
 import { useState } from "react";
 import Link from "next/link";
-import { Menu, X, Mountain, Phone } from "lucide-react";
+import Image from "next/image";
+import { Menu, X, Phone } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { cn } from "@/lib/utils";
 import { COMPANY_INFO } from "@/lib/seo";
+import { useLocale, useTranslations } from "next-intl";
+import { LanguageSwitcher } from "@/components/LanguageSwitcher";
 
-const NAV_LINKS = [
-  { href: "/", label: "Home" },
-  { href: "/about", label: "About" },
-  { href: "/products", label: "Products" },
-  { href: "/quality", label: "Quality" },
-  { href: "/gallery", label: "Operations" },
-  { href: "/contact", label: "Contact" },
-];
+interface NavbarProps {
+  locale: string;
+  translatedLinks: Array<{ href: string; label: string }>;
+  contactLabel: string;
+}
 
-export function Navbar() {
+export function Navbar({ locale, translatedLinks, contactLabel }: NavbarProps) {
   const [isOpen, setIsOpen] = useState(false);
 
   return (
@@ -24,9 +24,9 @@ export function Navbar() {
       <nav className="container mx-auto px-4 lg:px-8">
         <div className="flex h-16 items-center justify-between">
           {/* Logo */}
-          <Link href="/" className="flex items-center gap-2 group">
-            <div className="flex h-10 w-10 items-center justify-center rounded-lg bg-primary text-primary-foreground">
-              <Mountain className="h-6 w-6" />
+          <Link href={`/${locale}/`} className="flex items-center gap-2 group">
+            <div className="flex h-10 w-10 items-center justify-center rounded-lg bg-transparent overflow-hidden">
+              <Image src="/Logo.svg" alt="Logo" width={40} height={40} className="object-contain" />
             </div>
             <div className="hidden sm:block">
               <p className="text-sm font-bold leading-tight text-foreground">
@@ -40,10 +40,10 @@ export function Navbar() {
 
           {/* Desktop Navigation */}
           <div className="hidden lg:flex items-center gap-6">
-            {NAV_LINKS.map((link) => (
+            {translatedLinks.map((link) => (
               <Link
                 key={link.href}
-                href={link.href}
+                href={`/${locale}${link.href}`}
                 className="text-sm font-medium text-muted-foreground transition-colors hover:text-primary"
               >
                 {link.label}
@@ -51,12 +51,13 @@ export function Navbar() {
             ))}
           </div>
 
-          {/* CTA Button */}
+          {/* CTA Button & Language Switcher */}
           <div className="hidden lg:flex items-center gap-3">
+            <LanguageSwitcher locale={locale} />
             <Button asChild variant="outline" size="sm">
               <a href={`tel:${COMPANY_INFO.phone.replace(/\s/g, "")}`}>
                 <Phone className="h-4 w-4 mr-2" />
-                Hubungi Kami
+                {contactLabel}
               </a>
             </Button>
             <Button asChild size="sm">
@@ -71,13 +72,16 @@ export function Navbar() {
           </div>
 
           {/* Mobile Menu Button */}
-          <button
-            onClick={() => setIsOpen(!isOpen)}
-            className="lg:hidden p-2 text-foreground"
-            aria-label="Toggle menu"
-          >
-            {isOpen ? <X className="h-6 w-6" /> : <Menu className="h-6 w-6" />}
-          </button>
+          <div className="flex items-center gap-2 lg:hidden">
+            <LanguageSwitcher locale={locale} />
+            <button
+              onClick={() => setIsOpen(!isOpen)}
+              className="p-2 text-foreground"
+              aria-label="Toggle menu"
+            >
+              {isOpen ? <X className="h-6 w-6" /> : <Menu className="h-6 w-6" />}
+            </button>
+          </div>
         </div>
 
         {/* Mobile Navigation */}
@@ -88,10 +92,10 @@ export function Navbar() {
           )}
         >
           <div className="flex flex-col gap-2 pt-4">
-            {NAV_LINKS.map((link) => (
+            {translatedLinks.map((link) => (
               <Link
                 key={link.href}
-                href={link.href}
+                href={`/${locale}${link.href}`}
                 onClick={() => setIsOpen(false)}
                 className="px-4 py-2 text-sm font-medium text-muted-foreground transition-colors hover:text-primary hover:bg-muted rounded-lg"
               >
@@ -102,7 +106,7 @@ export function Navbar() {
               <Button asChild variant="outline" size="sm" className="w-full">
                 <a href={`tel:${COMPANY_INFO.phone.replace(/\s/g, "")}`}>
                   <Phone className="h-4 w-4 mr-2" />
-                  Hubungi Kami
+                  {contactLabel}
                 </a>
               </Button>
               <Button asChild size="sm" className="w-full">
