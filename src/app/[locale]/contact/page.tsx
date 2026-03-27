@@ -4,6 +4,7 @@ import { ContactForm } from "@/components/sections/ContactForm";
 import { Button } from "@/components/ui/button";
 import { MapPin, Phone, Mail, Clock, MessageCircle } from "lucide-react";
 import { COMPANY_INFO, generatePageMetadata } from "@/lib/seo";
+import { LocationsGrid, GeneralFAQ, SupportInfo, NewsletterBanner, BusinessHours } from "@/components/sections/ContactPageSections";
 
 export const metadata: Metadata = generatePageMetadata({
   title: "Contact - Hubungi Kami",
@@ -160,6 +161,21 @@ export default function ContactPage() {
           </Card>
         </div>
       </section>
+
+      {/* Global & Regional Locations */}
+      <LocationsGrid />
+
+      {/* SLA & Support Info */}
+      <SupportInfo />
+
+      {/* Business Hours Detailed Table */}
+      <BusinessHours />
+
+      {/* Interactive General FAQ */}
+      <GeneralFAQ />
+
+      {/* Newsletter / Notifications Subscription */}
+      <NewsletterBanner />
     </>
   );
 }

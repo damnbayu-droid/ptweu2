@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import { Card, CardContent } from "@/components/ui/card";
 import { VisionMission } from "@/components/sections/AboutSection";
 import { CTASection } from "@/components/sections/CTASection";
+import { CompanyTimeline, CoreValuesCards, StatsChart, GlobalReachMap, AwardsGrid } from "@/components/sections/AboutPageSections";
 import { generatePageMetadata } from "@/lib/seo";
 
 export const metadata: Metadata = generatePageMetadata({
@@ -45,8 +46,17 @@ export default function AboutPage() {
         </div>
       </section>
 
+      {/* Company Timeline */}
+      <CompanyTimeline />
+
       {/* Vision & Mission */}
       <VisionMission showCTA={false} />
+
+      {/* Core Values */}
+      <CoreValuesCards />
+
+      {/* Stats & Growth Chart */}
+      <StatsChart />
 
       {/* Company Registration */}
       <section className="py-16 lg:py-20">
@@ -87,6 +97,12 @@ export default function AboutPage() {
           </Card>
         </div>
       </section>
+
+      {/* Global Reach */}
+      <GlobalReachMap />
+
+      {/* Awards & Certifications */}
+      <AwardsGrid />
 
       {/* CTA Section */}
       <CTASection />

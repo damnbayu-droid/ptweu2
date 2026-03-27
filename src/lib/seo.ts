@@ -5,7 +5,7 @@ export const COMPANY_INFO = {
   name: "PT Wira Energi Utama",
   tagline: "General Trade, Mining & Supplier",
   description: "Perusahaan penyedia batu kapur / gamping berkualitas tinggi untuk industri, konstruksi, dan pembangunan infrastruktur di Indonesia.",
-  email: "contact@wiraenergiutama.com",
+  email: "contact@ptweu.company",
   phone: "+62 811 4344 168",
   whatsapp: "628114344168",
   address: {
@@ -16,7 +16,7 @@ export const COMPANY_INFO = {
     province: "Sulawesi Utara",
     country: "Indonesia",
   },
-  website: "https://wiraenergiutama.com",
+  website: "https://ptweu.company",
 } as const;
 
 // SEO Keywords
@@ -41,7 +41,7 @@ export const SEO_KEYWORDS = {
 
 // Site Configuration
 export const SITE_CONFIG = {
-  url: "https://wiraenergiutama.com",
+  url: "https://ptweu.company",
   locale: "id_ID",
   alternateLocale: "en_US",
 } as const;

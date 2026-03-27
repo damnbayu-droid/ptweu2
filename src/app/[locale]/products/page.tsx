@@ -4,6 +4,7 @@ import { CTASection } from "@/components/sections/CTASection";
 import { generatePageMetadata, generateProductSchema } from "@/lib/seo";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { QualitySection } from "@/components/sections/QualitySection";
+import { ProcessSteps, ApplicationsHoverCards, PackagingInfo, TestimonialCarousel, ProductFAQ, CapacityChart } from "@/components/sections/ProductsPageSections";
 import { GalleryGrid, type GalleryItem } from "@/components/sections/GalleryGrid";
 
 export const metadata: Metadata = generatePageMetadata({
@@ -141,8 +142,11 @@ export default async function ProductsPage({ params }: { params: Promise<{ local
         </div>
       </section>
 
+      {/* Process Steps */}
+      <ProcessSteps />
+
       {/* Products List */}
-      <section className="py-16 lg:py-20">
+      <section className="py-16 lg:py-20 bg-muted/10 border-y border-border/50">
         <div className="container mx-auto px-4 lg:px-8">
           <div className="space-y-12">
             {PRODUCTS.map((product) => (
@@ -160,8 +164,11 @@ export default async function ProductsPage({ params }: { params: Promise<{ local
         </div>
       </section>
 
+      {/* Industries/Applications Hover Cards */}
+      <ApplicationsHoverCards />
+
       {/* Quality Commitment Section */}
-      <section className="py-16 lg:py-20 bg-muted/30 border-t border-border/50">
+      <section className="py-16 lg:py-20 bg-background border-t border-border/50">
         <div className="container mx-auto px-4 lg:px-8">
           <div className="max-w-4xl mx-auto text-center mb-12">
             <h2 className="text-3xl font-bold text-foreground mb-4">Our Quality Commitment</h2>
@@ -201,6 +208,15 @@ export default async function ProductsPage({ params }: { params: Promise<{ local
       {/* Testing Labs Section */}
       <QualitySection />
 
+      {/* Packaging & Logistics Details */}
+      <PackagingInfo />
+
+      {/* Testimonials Carousel */}
+      <TestimonialCarousel />
+
+      {/* Product Capacity Chart */}
+      <CapacityChart />
+
       {/* Gallery Sections */}
       <section className="py-16 lg:py-20 bg-muted/20">
         <div className="container mx-auto px-4 lg:px-8">
@@ -214,6 +230,9 @@ export default async function ProductsPage({ params }: { params: Promise<{ local
           </div>
         </div>
       </section>
+
+      {/* Product FAQ */}
+      <ProductFAQ />
 
       {/* CTA Section */}
       <CTASection />
