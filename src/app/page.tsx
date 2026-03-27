@@ -7,8 +7,8 @@ export default function RootPage() {
   const router = useRouter();
 
   useEffect(() => {
-    // Redirect to default locale 'en'
-    router.replace("/en/");
+    // Redirect to default locale 'id'
+    router.replace("/id/");
   }, [router]);
 
   return (

@@ -29,5 +29,277 @@
       "products": "Produk",
       "contact": "Kontak"
     }
+  },
+  "AboutSections": {
+    "journeyTitle": "Perjalanan Kami",
+    "journeyDesc": "Satu dekade keunggulan, pertumbuhan, dan komitmen untuk menghasilkan produk batu kapur terbaik.",
+    "timeline": [
+      {
+        "year": "2015",
+        "title": "Perusahaan Didirikan",
+        "description": "PT Wira Energi Utama resmi didirikan di Sulawesi Utara."
+      },
+      {
+        "year": "2018",
+        "title": "Ekspansi Besar Pertama",
+        "description": "Membuka tambang kedua dan melipatgandakan kapasitas produksi."
+      },
+      {
+        "year": "2020",
+        "title": "Penghargaan Nasional",
+        "description": "Dianugerahi sebagai salah satu perusahaan tambang berkembang terbaik di Indonesia Timur."
+      },
+      {
+        "year": "2023",
+        "title": "Inisiatif Keberlanjutan",
+        "description": "Meluncurkan program tambang hijau untuk meminimalkan dampak lingkungan."
+      },
+      {
+        "year": "2026",
+        "title": "Ekspor Global",
+        "description": "Mulai mengekspor Kalsium Karbonat berkualitas tinggi ke pasar internasional."
+      }
+    ],
+    "valuesTitle": "Nilai Inti Kami",
+    "valuesDesc": "Keyakinan mendasar yang mendorong operasi kami dan membentuk budaya perusahaan kami.",
+    "values": [
+      {
+        "title": "Integritas",
+        "description": "Kami menjalankan bisnis dengan standar etika dan transparansi tertinggi."
+      },
+      {
+        "title": "Keunggulan",
+        "description": "Berkomitmen memproduksi batu kapur kualitas premium untuk berbagai kebutuhan industri."
+      },
+      {
+        "title": "Keberlanjutan",
+        "description": "Memprioritaskan praktik penambangan ramah lingkungan dan pelestarian alam."
+      },
+      {
+        "title": "Keandalan",
+        "description": "Memastikan pasokan yang konsisten dan pengiriman tepat waktu untuk semua mitra."
+      }
+    ],
+    "statsExp": "Tahun Pengalaman",
+    "statsCap": "Ton Kapasitas Bulanan",
+    "statsPartners": "Mitra B2B",
+    "statsSat": "Kepuasan Klien",
+    "statsChartTitle": "Pertumbuhan Produksi (5 Tahun Terakhir)",
+    "reachTitle": "Jangkauan Global & Distribusi",
+    "reachDesc": "Melayani kebutuhan industri domestik di seluruh Indonesia dan mengekspor mineral berkualitas ke pasar internasional.",
+    "reachLocations": [
+      {
+        "title": "Sulawesi Utara",
+        "desc": "Pusat Tambang & Operasi Utama"
+      },
+      {
+        "title": "Cakupan Nasional",
+        "desc": "Logistik ke seluruh pulau besar Indonesia"
+      },
+      {
+        "title": "Pasar Ekspor",
+        "desc": "Menyuplai Asia Tenggara & sekitarnya"
+      }
+    ],
+    "awardsTitle": "Sertifikasi & Penghargaan",
+    "awardsDesc": "Komitmen kami terhadap kualitas, keselamatan, dan lingkungan diakui oleh lembaga nasional dan internasional.",
+    "awards": [
+      "Manajemen Mutu ISO 9001:2015",
+      "Manajemen Lingkungan ISO 14001:2015",
+      "Penghargaan Praktik Tambang Terbaik 2024",
+      "Sertifikasi Industri Hijau",
+      "Penghargaan Nol Kecelakaan - Kemenaker",
+      "Kontributor Ekspor Teratas 2025"
+    ]
+  },
+  "ProductsSections": {
+    "processTitle": "Proses Manufaktur",
+    "processDesc": "Dari ekstraksi awal hingga pengiriman akhir, proses kami menjamin kemurnian dan efisiensi maksimum.",
+    "steps": [
+      {
+        "title": "Penambangan",
+        "desc": "Mengekstraksi batu kapur mutu tinggi dari lokasi yang dikelola secara ramah lingkungan."
+      },
+      {
+        "title": "Penghancuran & Penyaringan",
+        "desc": "Proses awal memecah bahan baku menjadi ukuran yang dapat dikelola."
+      },
+      {
+        "title": "Kalsinasi / Penggilingan",
+        "desc": "Proses termal tingkat lanjut atau penggilingan halus sesuai dengan grade produk akhir."
+      },
+      {
+        "title": "Kontrol Kualitas",
+        "desc": "Pengujian lab yang ketat untuk memastikan kemurnian, tingkat kelembaban, dan ukuran partikel."
+      },
+      {
+        "title": "Pengemasan",
+        "desc": "Pengemasan otomatis atau pemuatan curah untuk transportasi yang aman dan efisien."
+      },
+      {
+        "title": "Distribusi",
+        "desc": "Pengiriman tepat waktu ke klien domestik dan internasional melalui jaringan logistik kami."
+      }
+    ],
+    "indTitle": "Industri yang Kami Layani",
+    "indDesc": "Produk kalsium karbonat dan batu kapur kami yang serbaguna mendorong berbagai industri global.",
+    "industries": [
+      {
+        "name": "Konstruksi & Infrastruktur",
+        "desc": "Penting untuk semen, aspal, dan material bangunan struktural."
+      },
+      {
+        "name": "Pertanian",
+        "desc": "Digunakan penyesuaian pH tanah dan pupuk untuk meningkatkan hasil panen."
+      },
+      {
+        "name": "Kertas & Pulp",
+        "desc": "Bertindak sebagai pengisi premium dan pigmen pelapis untuk meningkatkan kecerahan."
+      },
+      {
+        "name": "Plastik & Karet",
+        "desc": "Meningkatkan daya tahan panas, kekakuan, dan menekan biaya produksi."
+      },
+      {
+        "name": "Pengolahan Air",
+        "desc": "Krusial untuk mengatur pH, melunakkan air, dan menghilangkan kotoran."
+      },
+      {
+        "name": "Cat & Pelapis",
+        "desc": "Memberikan opasitas, ketahanan cuaca, dan retensi warna."
+      }
+    ],
+    "packTitle": "Pilihan Pengemasan & Logistik",
+    "packDesc": "Kami menawarkan solusi pengemasan fleksibel yang disesuaikan dengan skala operasional dan kebutuhan logistik Anda. Semua kemasan memastikan perlindungan terhadap kelembaban dan keutuhan material.",
+    "packages": [
+      {
+        "title": "Karung Kertas & PP 25kg / 50kg",
+        "desc": "Ideal untuk aplikasi industri kecil dan memudahkan penanganan manual."
+      },
+      {
+        "title": "Karung Jumbo 1 Ton (FIBC)",
+        "desc": "Sempurna untuk operasi skala menengah hingga besar yang membutuhkan forklift."
+      },
+      {
+        "title": "Truk Tangki Curah (Bulk)",
+        "desc": "Pemompaan pneumatik langsung ke silo untuk pabrik industri masif."
+      }
+    ],
+    "testTitle": "Apa Kata Klien Kami",
+    "testimonials": [
+      {
+        "quote": "Kualitas Kapur Bakar yang dipasok telah meningkatkan efisiensi manufaktur baja kami secara drastis.",
+        "author": "Manajer Produksi",
+        "company": "National Steel Corp"
+      },
+      {
+        "quote": "Ukuran partikel konsisten dan pengiriman cepat. Mitra yang sangat dapat diandalkan untuk kebutuhan kertas kami.",
+        "author": "Kepala Pengadaan",
+        "company": "Asia Pulp & Paper Solutions"
+      },
+      {
+        "quote": "Kalsium karbonat murni mereka sangat berperan penting dalam lini produksi pupuk pertanian kami.",
+        "author": "Direktur Operasional",
+        "company": "AgriTech Indonesia"
+      }
+    ],
+    "faqTitle": "Pertanyaan yang Sering Diajukan",
+    "faqDesc": "Berbagai pertanyaan umum mengenai produk dan operasi kami.",
+    "faqs": [
+      {
+        "q": "Berapa Minimum Order Quantity (MOQ) untuk pengiriman internasional?",
+        "a": "MOQ standar kami untuk ekspor adalah 1 FCL (Full Container Load), yang biasanya memuat sekitar 20-25 ton tergantung kemasannya."
+      },
+      {
+        "q": "Apakah Anda bisa menyediakan ukuran partikel Kalsium Karbonat yang disesuaikan?",
+        "a": "Ya, kami menawarkan penggilingan ukuran khusus berdasarkan kebutuhan spesifik Anda mulai dari butiran kasar hingga bubuk sangat halus."
+      },
+      {
+        "q": "Apakah Anda menyediakan Material Safety Data Sheets (MSDS)?",
+        "a": "Tentu. COA (Certificate of Analysis) dan MSDS menyertai setiap pengiriman dan tersedia berdasarkan permintaan selama negosiasi awal."
+      },
+      {
+        "q": "Berapa lama waktu tunggu (lead time) biasanya untuk satu pesanan?",
+        "a": "Untuk order domestik biasanya 3-7 hari. Untuk ekspor bergantung pada tujuan dan jadwal pengiriman kapal, biasanya 2-4 minggu."
+      }
+    ],
+    "capTitle": "Target Batas Produksi Bulanan",
+    "capScale": "Produksi Skalabel untuk Setiap Kebutuhan",
+    "capScaleDesc1": "Dengan cadangan bahan baku yang luas dan investasi berkelanjutan pada mesin penggiling mutakhir, kami memiliki kapasitas untuk meningkatkan operasi secara cepat guna memenuhi lonjakan permintaan pasar.",
+    "capScaleDesc2": "Optimalisasi logistik pabrik yang berkelanjutan juga menjamin periode produksi puncak tidak mengorbankan standar kontrol kualitas ketat yang diharapkan klien kami."
+  },
+  "ContactSections": {
+    "locTitle": "Jaringan Global Kami",
+    "locDesc": "Beroperasi dari jantung Indonesia dengan perluasan kantor regional untuk melayani Anda lebih baik.",
+    "locations": [
+      {
+        "type": "Kantor Pusat & Tambang",
+        "name": "Pabrik Sulawesi Utara",
+        "address": "Ratatotok, Minahasa Tenggara, Indonesia"
+      },
+      {
+        "type": "Kantor Regional",
+        "name": "Perwakilan Jakarta",
+        "address": "Sudirman Central Business District, Jakarta"
+      },
+      {
+        "type": "Pusat Logistik",
+        "name": "Fasilitas Pelabuhan Surabaya",
+        "address": "Tanjung Perak, Surabaya, Indonesia"
+      }
+    ],
+    "faqTitle": "Pertanyaan Umum",
+    "faqDesc": "Temukan jawaban atas pertanyaan yang paling sering ditanyakan oleh klien kami.",
+    "faqs": [
+      {
+        "q": "Berapa cepat saya bisa mendapatkan penawaran harga?",
+        "a": "Cukup isi formulir kontak atau chat kami di WhatsApp. Tim penjualan kami biasanya merespons dalam 1-2 jam selama jam operasional bisnis."
+      },
+      {
+        "q": "Apakah Anda mengatur pengiriman internasional?",
+        "a": "Ya, kami menangani pengiriman FOB, CIF, dan CFR. Tim logistik kami akan bekerja sama dengan Anda untuk mengatur opsi pengiriman laut yang paling efisien."
+      },
+      {
+        "q": "Bolehkah saya meminta sampel produk sebelum memesan?",
+        "a": "Kami menyediakan sampel (hingga 5kg) untuk uji lab. Anda hanya perlu menanggung biaya kurir domestik atau internasionalnya."
+      },
+      {
+        "q": "Apa metode pembayaran yang Anda terima?",
+        "a": "Untuk order domestik, kami menerima transfer bank berjangka waktu standar. Untuk ekspor, kami biasanya mensyaratkan T/T atau Irrevocable L/C at sight."
+      },
+      {
+        "q": "Bolehkah saya mengunjungi lokasi tambang atau fasilitas pemrosesan Anda?",
+        "a": "Tentu, kami sangat menyambut calon mitra B2B. Harap jadwalkan kunjungan lewat tim kami setidaknya 2 minggu sebelumnya untuk izin keamanan dan keselamatan."
+      }
+    ],
+    "slaTitle": "Kualitas Layanan Bisnis",
+    "slaDesc": "Kami berdedikasi tinggi untuk memberikan dukungan responsif dan andal bagi semua mitra kami.",
+    "slaSales": "Penjualan & Penawaran",
+    "slaSales1": "Respon Awal",
+    "slaSales2": "Kutipan Rinci",
+    "slaSales3": "Pengiriman Sampel",
+    "slaOp": "Dukungan Operasional",
+    "slaOp1": "Pembaruan Logistik",
+    "slaOp2": "Hasil Uji Kualitas",
+    "slaOp3": "Kontak Darurat",
+    "newsTitle": "Tetap Terinformasi",
+    "newsDesc": "Berlangganan newsletter kami untuk info terbaru mengenai kapasitas produksi, lini produk baru, dan wawasan industri.",
+    "newsInput": "Masukkan alamat email Anda",
+    "newsBtn": "Berlangganan",
+    "newsSub": "Kami menghargai privasi Anda. Tidak ada spam.",
+    "bhTitle": "Jam Operasional & Bisnis",
+    "bhDesc": "Jam kerja kantor pusat dan dukungan pelanggan kami. Operasi tambang kami mungkin berjalan pada jadwal yang berbeda tergantung pada kebutuhan pesanan.",
+    "bhDays": [
+      "Senin",
+      "Selasa",
+      "Rabu",
+      "Kamis",
+      "Jumat",
+      "Sabtu",
+      "Minggu"
+    ],
+    "bhStatusOpen": "Buka",
+    "bhStatusHalf": "Setengah Hari",
+    "bhStatusClosed": "Tutup"
   }
 }

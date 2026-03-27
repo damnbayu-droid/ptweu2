@@ -29,5 +29,277 @@
       "products": "Products",
       "contact": "Contact"
     }
+  },
+  "AboutSections": {
+    "journeyTitle": "Our Journey",
+    "journeyDesc": "A decade of excellence, growth, and commitment to delivering the best limestone products.",
+    "timeline": [
+      {
+        "year": "2015",
+        "title": "Company Founded",
+        "description": "PT Wira Energi Utama was officially established in Sulawesi Utara."
+      },
+      {
+        "year": "2018",
+        "title": "First Major Expansion",
+        "description": "Opened our second major limestone quarry and doubled production capacity."
+      },
+      {
+        "year": "2020",
+        "title": "National Recognition",
+        "description": "Awarded as one of the best emerging mining companies in Eastern Indonesia."
+      },
+      {
+        "year": "2023",
+        "title": "Sustainability Initiative",
+        "description": "Launched our green mining program to minimize environmental impact."
+      },
+      {
+        "year": "2026",
+        "title": "Global Export Launch",
+        "description": "Began exporting high-grade Calcium Carbonate to international markets."
+      }
+    ],
+    "valuesTitle": "Our Core Values",
+    "valuesDesc": "The fundamental beliefs that drive our operations and shape our corporate culture.",
+    "values": [
+      {
+        "title": "Integrity",
+        "description": "We conduct our business with the highest ethical standards and transparency."
+      },
+      {
+        "title": "Excellence",
+        "description": "Committed to producing premium grade limestone for various industrial needs."
+      },
+      {
+        "title": "Sustainability",
+        "description": "Prioritizing eco-friendly mining practices and environmental preservation."
+      },
+      {
+        "title": "Reliability",
+        "description": "Ensuring consistent supply and timely delivery for all our partners."
+      }
+    ],
+    "statsExp": "Years of Experience",
+    "statsCap": "Tons Monthly Capacity",
+    "statsPartners": "B2B Partners",
+    "statsSat": "Client Satisfaction",
+    "statsChartTitle": "Production Growth (Last 5 Years)",
+    "reachTitle": "Global Reach & Distribution",
+    "reachDesc": "Serving domestic industrial needs across Indonesia and exporting high-quality minerals to international markets.",
+    "reachLocations": [
+      {
+        "title": "Sulawesi Utara",
+        "desc": "Main Quarry & Mining Hub"
+      },
+      {
+        "title": "Nationwide Coverage",
+        "desc": "Logistics to all major Indonesian islands"
+      },
+      {
+        "title": "Export Markets",
+        "desc": "Supplying Southeast Asia & beyond"
+      }
+    ],
+    "awardsTitle": "Certifications & Awards",
+    "awardsDesc": "Our commitment to quality, safety, and environmental stewardship is recognized by national and international institutions.",
+    "awards": [
+      "ISO 9001:2015 Quality Management",
+      "ISO 14001:2015 Environmental Management",
+      "Best Mining Practice Award 2024",
+      "Green Industry Certification",
+      "Zero Accident Award - Ministry of Manpower",
+      "Top Export Contributor 2025"
+    ]
+  },
+  "ProductsSections": {
+    "processTitle": "Manufacturing Process",
+    "processDesc": "From raw extraction to final delivery, our process ensures maximum purity and efficiency.",
+    "steps": [
+      {
+        "title": "Quarrying",
+        "desc": "Extracting high-grade limestone from our environmentally managed sites."
+      },
+      {
+        "title": "Crushing & Screening",
+        "desc": "Initial processing to break down raw materials into manageable sizes."
+      },
+      {
+        "title": "Calcination/Milling",
+        "desc": "Advanced thermal processing or fine milling depending on the final product grade."
+      },
+      {
+        "title": "Quality Control",
+        "desc": "Rigorous lab testing to ensure purity, moisture levels, and particle size."
+      },
+      {
+        "title": "Packaging",
+        "desc": "Automated bagging or bulk loading for safe and efficient transport."
+      },
+      {
+        "title": "Distribution",
+        "desc": "Timely delivery to domestic and international clients via our logistics network."
+      }
+    ],
+    "indTitle": "Industries We Serve",
+    "indDesc": "Our versatile calcium carbonate and limestone products power diverse global industries.",
+    "industries": [
+      {
+        "name": "Construction & Infrastructure",
+        "desc": "Essential for cement, asphalt, and structural building materials."
+      },
+      {
+        "name": "Agriculture",
+        "desc": "Used for soil pH adjustment and fertilizers to improve crop yields."
+      },
+      {
+        "name": "Paper & Pulp",
+        "desc": "Acts as a premium filler and coating pigment to enhance brightness."
+      },
+      {
+        "name": "Plastics & Rubber",
+        "desc": "Improves heat resistance, stiffness, and reduces production costs."
+      },
+      {
+        "name": "Water Treatment",
+        "desc": "Crucial for regulating pH, softening water, and removing impurities."
+      },
+      {
+        "name": "Paints & Coatings",
+        "desc": "Provides opacity, weather resistance, and color retention."
+      }
+    ],
+    "packTitle": "Packaging & Logistics Options",
+    "packDesc": "We offer flexible packaging solutions tailored to your operational scale and logistics requirements. All packaging guarantees moisture protection and material integrity.",
+    "packages": [
+      {
+        "title": "25kg / 50kg Paper & PP Bags",
+        "desc": "Ideal for smaller industrial applications and easier manual handling."
+      },
+      {
+        "title": "1 Ton Jumbo Bags (FIBC)",
+        "desc": "Perfect for medium to large scale operations requiring forklift handling."
+      },
+      {
+        "title": "Bulk Tanker / Loose Delivery",
+        "desc": "Direct pneumatic pumping into silos for massive industrial plants."
+      }
+    ],
+    "testTitle": "What Our Clients Say",
+    "testimonials": [
+      {
+        "quote": "The quality of Burn Lime supplied has drastically improved our steel manufacturing efficiency.",
+        "author": "Production Manager",
+        "company": "National Steel Corp"
+      },
+      {
+        "quote": "Consistent particle size and fast delivery times. Extremely reliable partner for our paper coating needs.",
+        "author": "Procurement Head",
+        "company": "Asia Pulp & Paper Solutions"
+      },
+      {
+        "quote": "Their pure calcium carbonate has been instrumental in our agricultural fertilizer production line.",
+        "author": "Operations Director",
+        "company": "AgriTech Indonesia"
+      }
+    ],
+    "faqTitle": "Frequently Asked Questions",
+    "faqDesc": "Common queries regarding our products and operations.",
+    "faqs": [
+      {
+        "q": "What is the minimum order quantity (MOQ) for international shipments?",
+        "a": "Our standard MOQ for international shipping is 1 FCL (Full Container Load), which typically holds around 20-25 tonnes depending on the packaging."
+      },
+      {
+        "q": "Can you provide custom particle sizes for Calcium Carbonate?",
+        "a": "Yes, we offer custom milling and sizing based on your specific requirements ranging from coarse granules to ultra-fine powders."
+      },
+      {
+        "q": "Do you provide Material Safety Data Sheets (MSDS)?",
+        "a": "Absolutely. COA (Certificate of Analysis) and MSDS accompany every shipment and are available upon request during the inquiry phase."
+      },
+      {
+        "q": "How long is the typical lead time for an order?",
+        "a": "For domestic orders, lead times are usually 3-7 days. For international exports, it depends on the destination and shipping schedules, typically 2-4 weeks."
+      }
+    ],
+    "capTitle": "Monthly Production Limit Target",
+    "capScale": "Scalable Production for Any Need",
+    "capScaleDesc1": "With our expansive reserves and ongoing investments in state-of-the-art milling equipment, we have the capacity to scale operations rapidly to meet sudden increases in market demand.",
+    "capScaleDesc2": "Our continuous optimization of plant logistics ensures that peak production periods do not compromise the rigorous quality control standards our clients expect."
+  },
+  "ContactSections": {
+    "locTitle": "Our Global Network",
+    "locDesc": "Operating from the heart of Indonesia with expanding regional offices to serve you better.",
+    "locations": [
+      {
+        "type": "Headquarters & Mine",
+        "name": "Sulawesi Utara Plant",
+        "address": "Ratatotok, Minahasa Tenggara, Indonesia"
+      },
+      {
+        "type": "Regional Office",
+        "name": "Jakarta Representative",
+        "address": "Sudirman Central Business District, Jakarta"
+      },
+      {
+        "type": "Logistics Hub",
+        "name": "Surabaya Port facility",
+        "address": "Tanjung Perak, Surabaya, Indonesia"
+      }
+    ],
+    "faqTitle": "Common Inquiries",
+    "faqDesc": "Find answers to the most common questions our clients ask.",
+    "faqs": [
+      {
+        "q": "How quickly can I get a quotation?",
+        "a": "To get a quotation, simply fill out the contact form or message us on WhatsApp. Our sales team typically responds within 1-2 hours during business operations."
+      },
+      {
+        "q": "Do you arrange international shipping?",
+        "a": "Yes, we handle FOB, CIF, and CFR shipments. Our logistics team will work closely with you to arrange the most efficient sea freight options."
+      },
+      {
+        "q": "Can I request product samples before ordering?",
+        "a": "We provide product samples (up to 5kg) for lab testing. You only need to cover the international or domestic courier fees."
+      },
+      {
+        "q": "What payment terms do you accept?",
+        "a": "For domestic orders, we accept bank transfers with standard terms. For international exports, we typically require T/T or Irrevocable L/C at sight."
+      },
+      {
+        "q": "Can I visit your mining site or processing facility?",
+        "a": "Yes, we welcome prospect B2B partners. Please schedule a visit through our sales team at least 2 weeks in advance for safety and security clearance."
+      }
+    ],
+    "slaTitle": "Service Level Agreements",
+    "slaDesc": "We are dedicated to providing responsive and reliable support for all our partners.",
+    "slaSales": "Sales & Quotations",
+    "slaSales1": "Initial Response",
+    "slaSales2": "Detailed Quotation",
+    "slaSales3": "Sample Dispatch",
+    "slaOp": "Operational Support",
+    "slaOp1": "Logistics Updates",
+    "slaOp2": "Quality Check Results",
+    "slaOp3": "Emergency Contact",
+    "newsTitle": "Stay Informed",
+    "newsDesc": "Subscribe to our newsletter for the latest updates on production capacity, new product lines, and industry insights.",
+    "newsInput": "Enter your email address",
+    "newsBtn": "Subscribe",
+    "newsSub": "We respect your privacy. No spam, ever.",
+    "bhTitle": "Business & Operational Hours",
+    "bhDesc": "Our corporate office and customer support working hours. Our mining operations may run on different schedules depending on fulfillment needs.",
+    "bhDays": [
+      "Monday",
+      "Tuesday",
+      "Wednesday",
+      "Thursday",
+      "Friday",
+      "Saturday",
+      "Sunday"
+    ],
+    "bhStatusOpen": "Open",
+    "bhStatusHalf": "Half Day",
+    "bhStatusClosed": "Closed"
   }
 }
