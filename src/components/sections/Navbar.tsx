@@ -26,7 +26,7 @@ export function Navbar({ locale, translatedLinks, contactLabel }: NavbarProps) {
           {/* Logo */}
           <Link href={`/${locale}/`} className="flex items-center gap-2 group">
             <div className="flex h-10 w-10 items-center justify-center rounded-lg bg-transparent overflow-hidden">
-              <Image src="/Logo.svg" alt="Logo" width={40} height={40} className="object-contain" />
+              <Image src="/logo.svg" alt="Logo" width={40} height={40} className="object-contain" />
             </div>
             <div className="hidden sm:block">
               <p className="text-sm font-bold leading-tight text-foreground">

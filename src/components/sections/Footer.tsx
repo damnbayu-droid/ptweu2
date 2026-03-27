@@ -40,7 +40,7 @@ export function Footer({ locale, translatedNavLinks, rightsLabel, profileLabel }
           <div className="space-y-4">
             <Link href={`/${locale}/`} className="flex items-center gap-2">
               <div className="flex h-10 w-10 items-center justify-center rounded-lg bg-transparent overflow-hidden">
-                <Image src="/Logo.svg" alt="Logo" width={40} height={40} className="object-contain" />
+                <Image src="/logo.svg" alt="Logo" width={40} height={40} className="object-contain" />
               </div>
               <div>
                 <p className="text-sm font-bold leading-tight">

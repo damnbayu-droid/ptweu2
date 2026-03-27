@@ -17,8 +17,8 @@ const inter = Inter({
 export const metadata: Metadata = {
   metadataBase: new URL(SITE_CONFIG.url),
   icons: {
-    icon: "/Logo.svg",
-    apple: "/Logo.svg",
+    icon: "/logo.svg",
+    apple: "/logo.svg",
   },
   title: {
     default: `${COMPANY_INFO.name} - Supplier Batu Kapur & Kalsium Karbonat`,
