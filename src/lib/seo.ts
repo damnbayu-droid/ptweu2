@@ -16,7 +16,7 @@ export const COMPANY_INFO = {
     province: "Sulawesi Utara",
     country: "Indonesia",
   },
-  website: "https://ptweu.company",
+  website: "https://web2.ptweu.company",
 } as const;
 
 // SEO Keywords
@@ -41,7 +41,7 @@ export const SEO_KEYWORDS = {
 
 // Site Configuration
 export const SITE_CONFIG = {
-  url: "https://ptweu.company",
+  url: "https://web2.ptweu.company",
   locale: "id_ID",
   alternateLocale: "en_US",
 } as const;
